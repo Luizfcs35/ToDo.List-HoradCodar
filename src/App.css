@@ -7,6 +7,24 @@
   color: #fff;
 }
 
+.logo-react::before {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url("/public/logo192.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: 0 auto;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .todo-header {
   padding: 1.5em;
   border-bottom: 1px solid #2c3035;
@@ -14,7 +32,7 @@
 }
 
 .todo-header h1 {
-  color: rgb(20,158,202);
+  color: #5fd0ef;
   margin: 0;
 }
 

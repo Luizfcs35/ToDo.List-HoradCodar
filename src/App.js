@@ -85,7 +85,8 @@ function App() {
   return (
     <div className="App">
       <div className='todo-header'>
-        <h1>React ToDo</h1>
+        <span className='logo-react'></span>
+        <h1>React ToDo </h1>
       </div>
       <div className='form-todo'>
         <h2> Insira a sua tarefa:</h2>
